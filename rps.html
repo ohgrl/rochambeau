@@ -1,0 +1,24 @@
+<script>
+function playerPlay () {
+ var playerSelection = prompt("Enter your choice: rock, paper, or scissors");
+ return playerSelection;
+}
+function computerPlay () {
+  let rand = ['rock', 'paper', 'scissors'];
+  computerSelection= rand[Math.floor(Math.random() * rand.length)];
+  return computerSelection;
+  }
+
+function playRound (playerSelection, computerPlay) {
+if ((playerPlay="rock")&&(computerSelection='scissors')) {
+  return "rock beats scissors";
+} else if {
+  "you lose";
+} else {
+  "samesies";
+  }
+}
+const playerSelection ="rock"
+const computerSelection= computerPlay()
+console.log(playRound(playerSelection, computerSelection))
+</script>
